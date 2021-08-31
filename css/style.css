@@ -2,7 +2,7 @@ h2:hover {
   color: red;
 }
 
-.subtitle {
+h2[class="subtitle"] {
   color: blue;
 }
 
@@ -10,18 +10,47 @@ h2:hover {
   color: green;
 }
 
-li:only-child {
+/* li:only-child {
   color: purple;
-}
+} */
 
 td:only-child {
   color: purple;
 }
 
-#google-link:link {
+/* #google-link:link {
   color: blue;
 }
 
 #google-link:visited {
   color: red;
+} */
+
+h2 + a {
+  color: red;
 }
+
+textarea ~ button {
+  color: purple;
+}
+
+ul > li {
+  color: blue;
+}
+
+ul li {
+  color: green;
+}
+
+img[src*="../img/"] {
+  border: 10px solid black;
+}
+
+h2[class|="article-subtitle"] {
+  background: green;
+}
+
+/* 
+subtitle-294546
+subtitle-356784
+*/
