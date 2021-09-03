@@ -13,6 +13,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* 讓contact us輸入排列整齊 */
+input,
+textarea {
+  display: block;
+  margin: 10px;
+}
+
 #title {
   color: rgb(186, 133, 9);
   /* font-weight: 400; */
@@ -108,4 +115,13 @@ body {
   font-size: 20px;
   color: white;
   background: rgb(89, 150, 255);
+  /* transform: matrix(1, 0.45, 0.45, 1, 100, 50); */
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+}
+
+.submit-button:hover {
+  background: rgb(147, 187, 255);
+  padding: 20px 30px;
 }
